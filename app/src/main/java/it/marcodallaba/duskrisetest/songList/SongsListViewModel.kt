@@ -1,4 +1,4 @@
-package it.marcodallaba.duskrisetest
+package it.marcodallaba.duskrisetest.songList
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
