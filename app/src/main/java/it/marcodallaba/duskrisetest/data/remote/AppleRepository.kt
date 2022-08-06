@@ -13,7 +13,7 @@ class AppleRepository @Inject constructor(private val AppleApi: AppleApi) {
         val response = try {
             AppleApi.getSongs().body()!!.feed.results
         } catch (e: Exception) {
-            return Resource.Error("An unknown error occured.")
+            return Resource.Error("An unknown error occurred.")
         }
         return Resource.Success(response)
     }
