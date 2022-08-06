@@ -4,8 +4,8 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import it.marcodallaba.duskrisetest.data.remote.iTunesRepository
-import it.marcodallaba.duskrisetest.data.remote.iTunesApi
+import it.marcodallaba.duskrisetest.data.remote.AppleRepository
+import it.marcodallaba.duskrisetest.data.remote.AppleApi
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
@@ -16,17 +16,17 @@ object AppModule {
 
     @Singleton
     @Provides
-    fun provideITunesRepository(
-        api: iTunesApi
-    ) = iTunesRepository(api)
+    fun provideAppleRepository(
+        api: AppleApi
+    ) = AppleRepository(api)
 
     @Singleton
     @Provides
-    fun provideITunesService(): iTunesApi {
+    fun provideAppleApi(): AppleApi {
         return Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
             .baseUrl("https://rss.applemarketingtools.com/api/v2/")
             .build()
-            .create(iTunesApi::class.java)
+            .create(AppleApi::class.java)
     }
 }

@@ -7,11 +7,11 @@ import java.lang.Exception
 import javax.inject.Inject
 
 @ActivityScoped
-class iTunesRepository @Inject constructor(private val iTunesApi: iTunesApi) {
+class AppleRepository @Inject constructor(private val AppleApi: AppleApi) {
 
     suspend fun getSongs(): Resource<List<Song>> {
         val response = try {
-            iTunesApi.getSongs().body()!!.feed.results
+            AppleApi.getSongs().body()!!.feed.results
         } catch (e: Exception) {
             return Resource.Error("An unknown error occured.")
         }

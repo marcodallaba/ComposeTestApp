@@ -4,7 +4,7 @@ class Song(
     val artistName: String,
     val name: String,
     val artworkUrl100: String,
-    val releaseDate: String?
+    val releaseDate: String
 ) {
 
     override fun toString(): String {
