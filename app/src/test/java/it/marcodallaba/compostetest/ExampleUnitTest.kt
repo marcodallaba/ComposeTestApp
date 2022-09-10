@@ -1,4 +1,4 @@
-package it.marcodallaba.duskrisetest
+package it.marcodallaba.compostetest
 
 import org.junit.Test
 

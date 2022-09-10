@@ -1,12 +1,12 @@
-package it.marcodallaba.duskrisetest.songList
+package it.marcodallaba.compostetest.songList
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import it.marcodallaba.duskrisetest.data.remote.AppleRepository
-import it.marcodallaba.duskrisetest.data.remote.responses.Song
-import it.marcodallaba.duskrisetest.util.Resource
+import it.marcodallaba.compostetest.data.remote.AppleRepository
+import it.marcodallaba.compostetest.data.remote.responses.Song
+import it.marcodallaba.compostetest.util.Resource
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import javax.inject.Inject

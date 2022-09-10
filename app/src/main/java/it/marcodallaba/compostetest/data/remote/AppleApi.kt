@@ -1,6 +1,6 @@
-package it.marcodallaba.duskrisetest.data.remote
+package it.marcodallaba.compostetest.data.remote
 
-import it.marcodallaba.duskrisetest.data.remote.responses.SongsResponse
+import it.marcodallaba.compostetest.data.remote.responses.SongsResponse
 import retrofit2.Response
 import retrofit2.http.GET
 

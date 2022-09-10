@@ -1,11 +1,11 @@
-package it.marcodallaba.duskrisetest
+package it.marcodallaba.compostetest
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber
 
 @HiltAndroidApp
-class DuskRiseTestApplication : Application() {
+class ComposeTestApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         Timber.plant(Timber.DebugTree())

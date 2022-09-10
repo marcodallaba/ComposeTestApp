@@ -1,8 +1,8 @@
-package it.marcodallaba.duskrisetest.data.remote
+package it.marcodallaba.compostetest.data.remote
 
 import dagger.hilt.android.scopes.ActivityScoped
-import it.marcodallaba.duskrisetest.data.remote.responses.Song
-import it.marcodallaba.duskrisetest.util.Resource
+import it.marcodallaba.compostetest.data.remote.responses.Song
+import it.marcodallaba.compostetest.util.Resource
 import java.lang.Exception
 import javax.inject.Inject
 

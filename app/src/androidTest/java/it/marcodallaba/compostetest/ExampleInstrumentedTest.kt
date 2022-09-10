@@ -1,4 +1,4 @@
-package it.marcodallaba.duskrisetest
+package it.marcodallaba.compostetest
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("it.marcodallaba.duskrisetest", appContext.packageName)
+        assertEquals("it.marcodallaba.composetest", appContext.packageName)
     }
 }

@@ -1,11 +1,11 @@
-package it.marcodallaba.duskrisetest.di
+package it.marcodallaba.compostetest.di
 
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import it.marcodallaba.duskrisetest.data.remote.AppleRepository
-import it.marcodallaba.duskrisetest.data.remote.AppleApi
+import it.marcodallaba.compostetest.data.remote.AppleRepository
+import it.marcodallaba.compostetest.data.remote.AppleApi
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton

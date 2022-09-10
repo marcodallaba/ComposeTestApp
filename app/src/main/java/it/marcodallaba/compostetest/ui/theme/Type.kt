@@ -1,4 +1,4 @@
-package it.marcodallaba.duskrisetest.ui.theme
+package it.marcodallaba.compostetest.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

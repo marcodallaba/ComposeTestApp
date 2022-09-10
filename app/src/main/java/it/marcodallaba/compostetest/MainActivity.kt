@@ -1,4 +1,4 @@
-package it.marcodallaba.duskrisetest
+package it.marcodallaba.compostetest
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,8 +11,8 @@ import androidx.navigation.navArgument
 import com.google.accompanist.web.WebView
 import com.google.accompanist.web.rememberWebViewState
 import dagger.hilt.android.AndroidEntryPoint
-import it.marcodallaba.duskrisetest.songList.SongListFragment
-import it.marcodallaba.duskrisetest.ui.theme.DuskRiseTestTheme
+import it.marcodallaba.compostetest.songList.SongListFragment
+import it.marcodallaba.compostetest.ui.theme.ComposeTestTheme
 import java.net.URLDecoder
 import java.nio.charset.StandardCharsets
 
@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            DuskRiseTestTheme {
+            ComposeTestTheme {
                 val navController = rememberNavController()
                 NavHost(
                     navController = navController,

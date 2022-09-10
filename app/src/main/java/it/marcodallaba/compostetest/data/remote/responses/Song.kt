@@ -1,4 +1,4 @@
-package it.marcodallaba.duskrisetest.data.remote.responses
+package it.marcodallaba.compostetest.data.remote.responses
 
 class Song(
     val artistName: String,

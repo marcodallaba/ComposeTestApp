@@ -1,4 +1,4 @@
-package it.marcodallaba.duskrisetest.songList
+package it.marcodallaba.compostetest.songList
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -19,7 +19,7 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
-import it.marcodallaba.duskrisetest.data.remote.responses.Song
+import it.marcodallaba.compostetest.data.remote.responses.Song
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 
